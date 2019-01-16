@@ -26,107 +26,107 @@
 
  */
 
-.bg-center { 
+.bg-center, %bg-center { 
   background-repeat: no-repeat;
   background-position: center center; 
 }
 
-.bg-top {    
+.bg-top, %bg-top {    
   background-repeat: no-repeat; 
   background-position: top center;    
 }
 
-.bg-right {  
+.bg-right, %bg-right {  
   background-repeat: no-repeat; 
   background-position: center right;  
 }
 
-.bg-bottom { 
+.bg-bottom, %bg-bottom { 
   background-repeat: no-repeat; 
   background-position: bottom center; 
 }
 
-.bg-left {   
+.bg-left, %bg-left {   
   background-repeat: no-repeat; 
   background-position: center left;   
 }
 
 @media #{$breakpoint-not-small} {
-  .bg-center-ns { 
+  .bg-center-ns, %bg-center-ns { 
     background-repeat: no-repeat;
     background-position: center center; 
   }
 
-  .bg-top-ns {    
+  .bg-top-ns, %bg-top-ns {    
     background-repeat: no-repeat; 
     background-position: top center;    
   }
 
-  .bg-right-ns {  
+  .bg-right-ns, %bg-right-ns {  
     background-repeat: no-repeat; 
     background-position: center right;  
   }
 
-  .bg-bottom-ns { 
+  .bg-bottom-ns, %bg-bottom-ns { 
     background-repeat: no-repeat; 
     background-position: bottom center; 
   }
 
-  .bg-left-ns {   
+  .bg-left-ns, %bg-left-ns {   
     background-repeat: no-repeat; 
     background-position: center left;   
   }
 }
 
 @media #{$breakpoint-medium} {
-  .bg-center-m { 
+  .bg-center-m, %bg-center-m { 
     background-repeat: no-repeat;
     background-position: center center; 
   }
 
-  .bg-top-m {    
+  .bg-top-m, %bg-top-m {    
     background-repeat: no-repeat; 
     background-position: top center;    
   }
 
-  .bg-right-m {  
+  .bg-right-m, %bg-right-m {  
     background-repeat: no-repeat; 
     background-position: center right;  
   }
 
-  .bg-bottom-m { 
+  .bg-bottom-m, %bg-bottom-m { 
     background-repeat: no-repeat; 
     background-position: bottom center; 
   }
 
-  .bg-left-m {   
+  .bg-left-m, %bg-left-m {   
     background-repeat: no-repeat; 
     background-position: center left;   
   }
 }
 
 @media #{$breakpoint-large} {
-  .bg-center-l { 
+  .bg-center-l, %bg-center-l { 
     background-repeat: no-repeat;
     background-position: center center; 
   }
 
-  .bg-top-l {    
+  .bg-top-l, %bg-top-l {    
     background-repeat: no-repeat; 
     background-position: top center;    
   }
 
-  .bg-right-l {  
+  .bg-right-l, %bg-right-l {  
     background-repeat: no-repeat; 
     background-position: center right;  
   }
 
-  .bg-bottom-l { 
+  .bg-bottom-l, %bg-bottom-l { 
     background-repeat: no-repeat; 
     background-position: bottom center; 
   }
 
-  .bg-left-l {   
+  .bg-left-l, %bg-left-l {   
     background-repeat: no-repeat; 
     background-position: center left;   
   }

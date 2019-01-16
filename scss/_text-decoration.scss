@@ -18,25 +18,37 @@
 
 */
 
+%strike,      
 .strike       { text-decoration: line-through; }
+%underline,   
 .underline    { text-decoration: underline; }
+%no-underline,
 .no-underline { text-decoration: none; }
 
 
 @media #{$breakpoint-not-small} {
+  %strike-ns,      
   .strike-ns       { text-decoration: line-through; }
+  %underline-ns,   
   .underline-ns    { text-decoration: underline; }
+  %no-underline-ns,
   .no-underline-ns { text-decoration: none; }
 }
 
 @media #{$breakpoint-medium} {
+  %strike-m,
   .strike-m       { text-decoration: line-through; }
+  %underline-m,
   .underline-m    { text-decoration: underline; }
+  %no-underline-m,
   .no-underline-m { text-decoration: none; }
 }
 
 @media #{$breakpoint-large} {
+  %strike-l,
   .strike-l       { text-decoration: line-through; }
-  .underline-l {    text-decoration: underline; }
+  %underline-l,
+  .underline-l    { text-decoration: underline; }
+  %no-underline-l,
   .no-underline-l { text-decoration: none; }
 }

@@ -15,33 +15,33 @@
 /* Nicolas Gallaghers Clearfix solution
    Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
 
-.cf:before,
-.cf:after { content: " "; display: table; }
-.cf:after { clear: both; }
-.cf {       *zoom: 1; }
+.cf:before, %cf:before,
+.cf:after, %cf:after { content: " "; display: table; }
+.cf:after, %cf:after { clear: both; }
+.cf, %cf  { *zoom: 1; }
 
-.cl { clear: left; }
-.cr { clear: right; }
-.cb { clear: both; }
-.cn { clear: none; }
+.cl, %cl { clear: left; }
+.cr, %cr { clear: right; }
+.cb, %cb { clear: both; }
+.cn, %cn { clear: none; }
 
 @media #{$breakpoint-not-small} {
-  .cl-ns { clear: left; }
-  .cr-ns { clear: right; }
-  .cb-ns { clear: both; }
-  .cn-ns { clear: none; }
+  .cl-ns, %cl-ns { clear: left; }
+  .cr-ns, %cr-ns { clear: right; }
+  .cb-ns, %cb-ns { clear: both; }
+  .cn-ns, %cn-ns { clear: none; }
 }
 
 @media #{$breakpoint-medium} {
-  .cl-m { clear: left; }
-  .cr-m { clear: right; }
-  .cb-m { clear: both; }
-  .cn-m { clear: none; }
+  .cl-m, %cl-m { clear: left; }
+  .cr-m, %cr-m { clear: right; }
+  .cb-m, %cb-m { clear: both; }
+  .cn-m, %cn-m { clear: none; }
 }
 
 @media #{$breakpoint-large} {
-  .cl-l { clear: left; }
-  .cr-l { clear: right; }
-  .cb-l { clear: both; }
-  .cn-l { clear: none; }
+  .cl-l, %cl-l { clear: left; }
+  .cr-l, %cr-l { clear: right; }
+  .cb-l, %cb-l { clear: both; }
+  .cn-l, %cn-l { clear: none; }
 }

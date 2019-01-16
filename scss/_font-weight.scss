@@ -31,57 +31,57 @@
 
 */
 
-.normal { font-weight: normal; }
-.b      { font-weight: bold; }
-.fw1    { font-weight: 100; }
-.fw2    { font-weight: 200; }
-.fw3    { font-weight: 300; }
-.fw4    { font-weight: 400; }
-.fw5    { font-weight: 500; }
-.fw6    { font-weight: 600; }
-.fw7    { font-weight: 700; }
-.fw8    { font-weight: 800; }
-.fw9    { font-weight: 900; }
+.normal, %normal { font-weight: normal; }
+.b,   %b      { font-weight: bold; }
+.fw1, %fw1    { font-weight: 100; }
+.fw2, %fw2    { font-weight: 200; }
+.fw3, %fw3    { font-weight: 300; }
+.fw4, %fw4    { font-weight: 400; }
+.fw5, %fw5    { font-weight: 500; }
+.fw6, %fw6    { font-weight: 600; }
+.fw7, %fw7    { font-weight: 700; }
+.fw8, %fw8    { font-weight: 800; }
+.fw9, %fw9    { font-weight: 900; }
 
 
 @media #{$breakpoint-not-small} {
-  .normal-ns { font-weight: normal; }
-  .b-ns      { font-weight: bold; }
-  .fw1-ns    { font-weight: 100; }
-  .fw2-ns    { font-weight: 200; }
-  .fw3-ns    { font-weight: 300; }
-  .fw4-ns    { font-weight: 400; }
-  .fw5-ns    { font-weight: 500; }
-  .fw6-ns    { font-weight: 600; }
-  .fw7-ns    { font-weight: 700; }
-  .fw8-ns    { font-weight: 800; }
-  .fw9-ns    { font-weight: 900; }
+  .normal-ns, %normal-ns { font-weight: normal; }
+  .b-ns,   %b-ns      { font-weight: bold; }
+  .fw1-ns, %fw1-ns    { font-weight: 100; }
+  .fw2-ns, %fw2-ns    { font-weight: 200; }
+  .fw3-ns, %fw3-ns    { font-weight: 300; }
+  .fw4-ns, %fw4-ns    { font-weight: 400; }
+  .fw5-ns, %fw5-ns    { font-weight: 500; }
+  .fw6-ns, %fw6-ns    { font-weight: 600; }
+  .fw7-ns, %fw7-ns    { font-weight: 700; }
+  .fw8-ns, %fw8-ns    { font-weight: 800; }
+  .fw9-ns, %fw9-ns    { font-weight: 900; }
 }
 
 @media #{$breakpoint-medium} {
-  .normal-m { font-weight: normal; }
-  .b-m      { font-weight: bold; }
-  .fw1-m    { font-weight: 100; }
-  .fw2-m    { font-weight: 200; }
-  .fw3-m    { font-weight: 300; }
-  .fw4-m    { font-weight: 400; }
-  .fw5-m    { font-weight: 500; }
-  .fw6-m    { font-weight: 600; }
-  .fw7-m    { font-weight: 700; }
-  .fw8-m    { font-weight: 800; }
-  .fw9-m    { font-weight: 900; }
+  .normal-m, %normal-m { font-weight: normal; }
+  .b-m,   %b-m      { font-weight: bold; }
+  .fw1-m, %fw1-m    { font-weight: 100; }
+  .fw2-m, %fw2-m    { font-weight: 200; }
+  .fw3-m, %fw3-m    { font-weight: 300; }
+  .fw4-m, %fw4-m    { font-weight: 400; }
+  .fw5-m, %fw5-m    { font-weight: 500; }
+  .fw6-m, %fw6-m    { font-weight: 600; }
+  .fw7-m, %fw7-m    { font-weight: 700; }
+  .fw8-m, %fw8-m    { font-weight: 800; }
+  .fw9-m, %fw9-m    { font-weight: 900; }
 }
 
 @media #{$breakpoint-large} {
-  .normal-l { font-weight: normal; }
-  .b-l      { font-weight: bold; }
-  .fw1-l    { font-weight: 100; }
-  .fw2-l    { font-weight: 200; }
-  .fw3-l    { font-weight: 300; }
-  .fw4-l    { font-weight: 400; }
-  .fw5-l    { font-weight: 500; }
-  .fw6-l    { font-weight: 600; }
-  .fw7-l    { font-weight: 700; }
-  .fw8-l    { font-weight: 800; }
-  .fw9-l    { font-weight: 900; }
+  .normal-l, %normal-l { font-weight: normal; }
+  .b-l, %b-l      { font-weight: bold; }
+  .fw1-l, %fw1-l    { font-weight: 100; }
+  .fw2-l, %fw2-l    { font-weight: 200; }
+  .fw3-l, %fw3-l    { font-weight: 300; }
+  .fw4-l, %fw4-l    { font-weight: 400; }
+  .fw5-l, %fw5-l    { font-weight: 500; }
+  .fw6-l, %fw6-l    { font-weight: 600; }
+  .fw7-l, %fw7-l    { font-weight: 700; }
+  .fw8-l, %fw8-l    { font-weight: 800; }
+  .fw9-l, %fw9-l    { font-weight: 900; }
 }

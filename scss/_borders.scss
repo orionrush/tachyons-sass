@@ -28,38 +28,38 @@
 
 */
 
-  .ba { border-style: solid; border-width: 1px; }
-  .bt { border-top-style: solid; border-top-width: 1px; }
-  .br { border-right-style: solid; border-right-width: 1px; }
-  .bb { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl { border-left-style: solid; border-left-width: 1px; }
-  .bn { border-style: none; border-width: 0; }
+  .ba, %ba { border-style: solid; border-width: 1px; }
+  .bt, %bt { border-top-style: solid; border-top-width: 1px; }
+  .br, %br { border-right-style: solid; border-right-width: 1px; }
+  .bb, %bb { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl, %bl { border-left-style: solid; border-left-width: 1px; }
+  .bn, %bn { border-style: none; border-width: 0; }
 
 
 @media #{$breakpoint-not-small} {
-  .ba-ns { border-style: solid; border-width: 1px; }
-  .bt-ns { border-top-style: solid; border-top-width: 1px; }
-  .br-ns { border-right-style: solid; border-right-width: 1px; }
-  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl-ns { border-left-style: solid; border-left-width: 1px; }
-  .bn-ns { border-style: none; border-width: 0; }
+  .ba-ns, %ba-ns { border-style: solid; border-width: 1px; }
+  .bt-ns, %bt-ns { border-top-style: solid; border-top-width: 1px; }
+  .br-ns, %br-ns { border-right-style: solid; border-right-width: 1px; }
+  .bb-ns, %bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-ns, %bl-ns { border-left-style: solid; border-left-width: 1px; }
+  .bn-ns, %bn-ns { border-style: none; border-width: 0; }
 }
 
 @media #{$breakpoint-medium} {
-  .ba-m { border-style: solid; border-width: 1px; }
-  .bt-m { border-top-style: solid; border-top-width: 1px; }
-  .br-m { border-right-style: solid; border-right-width: 1px; }
-  .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl-m { border-left-style: solid; border-left-width: 1px; }
-  .bn-m { border-style: none; border-width: 0; }
+  .ba-m, %ba-m { border-style: solid; border-width: 1px; }
+  .bt-m, %bt-m { border-top-style: solid; border-top-width: 1px; }
+  .br-m, %br-m { border-right-style: solid; border-right-width: 1px; }
+  .bb-m, %bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-m, %bl-m { border-left-style: solid; border-left-width: 1px; }
+  .bn-m, %bn-m { border-style: none; border-width: 0; }
 }
 
 @media #{$breakpoint-large} {
-  .ba-l { border-style: solid; border-width: 1px; }
-  .bt-l { border-top-style: solid; border-top-width: 1px; }
-  .br-l { border-right-style: solid; border-right-width: 1px; }
-  .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl-l { border-left-style: solid; border-left-width: 1px; }
-  .bn-l { border-style: none; border-width: 0; }
+  .ba-l, %ba-l { border-style: solid; border-width: 1px; }
+  .bt-l, %bt-l { border-top-style: solid; border-top-width: 1px; }
+  .br-l, %br-l { border-right-style: solid; border-right-width: 1px; }
+  .bb-l, %bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-l, %bl-l { border-left-style: solid; border-left-width: 1px; }
+  .bn-l, %bn-l { border-style: none; border-width: 0; }
 }
 

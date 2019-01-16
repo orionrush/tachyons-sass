@@ -17,20 +17,20 @@
 
 */
 
-.i         { font-style: italic; }
-.fs-normal { font-style: normal; }
+.i, %i { font-style: italic; }
+.fs-normal, %fs-normal { font-style: normal; }
 
 @media #{$breakpoint-not-small} {
-  .i-ns       { font-style: italic; }
-  .fs-normal-ns     { font-style: normal; }
+  .i-ns, %i-ns { font-style: italic; }
+  .fs-normal-ns, %fs-normal-ns { font-style: normal; }
 }
 
 @media #{$breakpoint-medium} {
-  .i-m       { font-style: italic; }
-  .fs-normal-m     { font-style: normal; }
+  .i-m, %i-m { font-style: italic; }
+  .fs-normal-m, %fs-normal-m { font-style: normal; }
 }
 
 @media #{$breakpoint-large} {
-  .i-l       { font-style: italic; }
-  .fs-normal-l     { font-style: normal; }
+  .i-l, %i-l { font-style: italic; }
+  .fs-normal-l, %fs-normal-l { font-style: normal; }
 }

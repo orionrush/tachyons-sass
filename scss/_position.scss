@@ -17,28 +17,28 @@
 
 */
 
-.static { position: static; }
-.relative  { position: relative; }
-.absolute  { position: absolute; }
-.fixed  { position: fixed; }
+.static, %static { position: static; }
+.relative, %relative { position: relative; }
+.absolute, %absolute { position: absolute; }
+.fixed, %fixed { position: fixed; }
 
 @media #{$breakpoint-not-small} {
-  .static-ns { position: static; }
-  .relative-ns  { position: relative; }
-  .absolute-ns  { position: absolute; }
-  .fixed-ns  { position: fixed; }
+  .static-ns, %static-ns { position: static; }
+  .relative-ns, %relative-ns  { position: relative; }
+  .absolute-ns, %absolute-ns  { position: absolute; }
+  .fixed-ns, %fixed-ns  { position: fixed; }
 }
 
 @media #{$breakpoint-medium} {
-  .static-m { position: static; }
-  .relative-m  { position: relative; }
-  .absolute-m  { position: absolute; }
-  .fixed-m  { position: fixed; }
+  .static-m, %static-m { position: static; }
+  .relative-m, %relative-m  { position: relative; }
+  .absolute-m, %absolute-m  { position: absolute; }
+  .fixed-m, %fixed-m  { position: fixed; }
 }
 
 @media #{$breakpoint-large} {
-  .static-l { position: static; }
-  .relative-l  { position: relative; }
-  .absolute-l  { position: absolute; }
-  .fixed-l  { position: fixed; }
+  .static-l, %static-ls { position: static; }
+  .relative-l, %relative-ls  { position: relative; }
+  .absolute-l, %absolute-ls  { position: absolute; }
+  .fixed-l, %fixed-ls  { position: fixed; }
 }

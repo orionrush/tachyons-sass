@@ -22,7 +22,7 @@
     Ref: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
 */
 
-.clip {
+.clip, %clip {
   position: fixed !important;
   _position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -30,7 +30,7 @@
 }
 
 @media #{$breakpoint-not-small} {
-  .clip-ns {
+  .clip-n, %clip-ns {
     position: fixed !important;
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -39,7 +39,7 @@
 }
 
 @media #{$breakpoint-medium} {
-  .clip-m {
+  .clip-m, %clip-m {
     position: fixed !important;
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -48,7 +48,7 @@
 }
 
 @media #{$breakpoint-large} {
-  .clip-l {
+  .clip-l, %clip-l {
     position: fixed !important;
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */

@@ -31,79 +31,79 @@
 
 */
 
-.dn {              display: none; }
-.di {              display: inline; }
-.db {              display: block; }
-.dib {             display: inline-block; }
-.dit {             display: inline-table; }
-.dt {              display: table; }
-.dtc {             display: table-cell; }
-.dt-row {          display: table-row; }
-.dt-row-group {    display: table-row-group; }
-.dt-column {       display: table-column; }
-.dt-column-group { display: table-column-group; }
+.dn, %dn {              display: none; }
+.di, %di {              display: inline; }
+.db, %db {              display: block; }
+.dib, %dib {             display: inline-block; }
+.dit, %dit {             display: inline-table; }
+.dt, %dt {              display: table; }
+.dtc, %dtc {             display: table-cell; }
+.dt-row, %dt-row {          display: table-row; }
+.dt-row-group, %dt-row-group {    display: table-row-group; }
+.dt-column, %dt-column {       display: table-column; }
+.dt-column-group, %dt-column-group { display: table-column-group; }
 
 /*
   This will set table to full width and then
   all cells will be equal width
 */
-.dt--fixed {
+.dt--fixed, %dt--fixed {
   table-layout: fixed;
   width: 100%;
 }
 
 @media #{$breakpoint-not-small} {
-  .dn-ns {              display: none; }
-  .di-ns {              display: inline; }
-  .db-ns {              display: block; }
-  .dib-ns {             display: inline-block; }
-  .dit-ns {             display: inline-table; }
-  .dt-ns {              display: table; }
-  .dtc-ns {             display: table-cell; }
-  .dt-row-ns {          display: table-row; }
-  .dt-row-group-ns {    display: table-row-group; }
-  .dt-column-ns {       display: table-column; }
-  .dt-column-group-ns { display: table-column-group; }
+  .dn-ns, %dn-ns { display: none; }
+  .di-ns, %di-ns { display: inline; }
+  .db-ns, %db-ns { display: block; }
+  .dib-ns, %dib-ns { display: inline-block; }
+  .dit-ns, %dit-ns { display: inline-table; }
+  .dt-ns, %dt-ns { display: table; }
+  .dtc-ns, %dtc-ns { display: table-cell; }
+  .dt-row-ns, %dt-row-ns { display: table-row; }
+  .dt-row-group-ns, %dt-row-group-ns { display: table-row-group; }
+  .dt-column-ns, %dt-column-ns { display: table-column; }
+  .dt-column-group-ns, %dt-column-group-ns { display: table-column-group; }
 
-  .dt--fixed-ns {
+  .dt--fixed-ns, %dt--fixed-ns {
     table-layout: fixed;
     width: 100%;
   }
 }
 
 @media #{$breakpoint-medium} {
-  .dn-m {              display: none; }
-  .di-m {              display: inline; }
-  .db-m {              display: block; }
-  .dib-m {             display: inline-block; }
-  .dit-m {             display: inline-table; }
-  .dt-m {              display: table; }
-  .dtc-m {             display: table-cell; }
-  .dt-row-m {          display: table-row; }
-  .dt-row-group-m {    display: table-row-group; }
-  .dt-column-m {       display: table-column; }
-  .dt-column-group-m { display: table-column-group; }
+  .dn-m, %dn-m {              display: none; }
+  .di-m, %di-m {              display: inline; }
+  .db-m, %db-m {              display: block; }
+  .dib-m, %dib-m {             display: inline-block; }
+  .dit-m, %dit-m {             display: inline-table; }
+  .dt-m, %dt-m {              display: table; }
+  .dtc-m, %dtc-m {             display: table-cell; }
+  .dt-row-m, %dt-row-m {          display: table-row; }
+  .dt-row-group-m, %dt-row-group-m {    display: table-row-group; }
+  .dt-column-m, %dt-column-m {       display: table-column; }
+  .dt-column-group-m, %dt-column-group-m { display: table-column-group; }
 
-  .dt--fixed-m {
+  .dt--fixed-m, %dt--fixed-m {
     table-layout: fixed;
     width: 100%;
   }
 }
 
 @media #{$breakpoint-large} {
-  .dn-l {              display: none; }
-  .di-l {              display: inline; }
-  .db-l {              display: block; }
-  .dib-l {             display: inline-block; }
-  .dit-l {             display: inline-table; }
-  .dt-l {              display: table; }
-  .dtc-l {             display: table-cell; }
-  .dt-row-l {          display: table-row; }
-  .dt-row-group-l {    display: table-row-group; }
-  .dt-column-l {       display: table-column; }
-  .dt-column-group-l { display: table-column-group; }
+  .dn-l, %dn-l { display: none; }
+  .di-l, %di-l { display: inline; }
+  .db-l, %db-l { display: block; }
+  .dib-l, %dib-l { display: inline-block; }
+  .dit-l, %dit-l { display: inline-table; }
+  .dt-l, %dt-l { display: table; }
+  .dtc-l, %dtc-l { display: table-cell; }
+  .dt-row-l, %dt-row-l { display: table-row; }
+  .dt-row-group-l, %dt-row-group-l { display: table-row-group; }
+  .dt-column-l, %dt-column-l { display: table-column; }
+  .dt-column-group-l, %dt-column-group-l { display: table-column-group; }
 
-  .dt--fixed-l {
+  .dt--fixed-l, %dt--fixed-l {
     table-layout: fixed;
     width: 100%;
   }

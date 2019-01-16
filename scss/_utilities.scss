@@ -17,41 +17,41 @@
 */
 
 /* Equivalent to .overflow-y-scroll */
-.overflow-container {
+.overflow-container, %overflow-container {
   overflow-y: scroll;
 }
 
-.center {
+.center, %center {
   margin-right: auto;
   margin-left: auto;
 }
 
-.mr-auto { margin-right: auto; }
-.ml-auto { margin-left:  auto; }
+.mr-auto, %mr-auto { margin-right: auto; }
+.ml-auto, %ml-auto { margin-left:  auto; }
 
 @media #{$breakpoint-not-small}{
-  .center-ns {
+  .center-ns, %center-ns {
     margin-right: auto;
     margin-left: auto;
   }
-  .mr-auto-ns { margin-right: auto; }
-  .ml-auto-ns { margin-left:  auto; }
+  .mr-auto-ns, %mr-auto-ns { margin-right: auto; }
+  .ml-auto-ns, %ml-auto-ns { margin-left:  auto; }
 }
 
 @media #{$breakpoint-medium}{
-  .center-m {
+  .center-m, %center-m {
     margin-right: auto;
     margin-left: auto;
   }
-  .mr-auto-m { margin-right: auto; }
-  .ml-auto-m { margin-left:  auto; }
+  .mr-auto-m, %mr-auto-m { margin-right: auto; }
+  .ml-auto-m, %ml-auto-m { margin-left:  auto; }
 }
 
 @media #{$breakpoint-large}{
-  .center-l {
+  .center-l, %center-l {
     margin-right: auto;
     margin-left: auto;
   }
-  .mr-auto-l { margin-right: auto; }
-  .ml-auto-l { margin-left:  auto; }
+  .mr-auto-l, %mr-auto-l { margin-right: auto; }
+  .ml-auto-l, %ml-auto-l { margin-left:  auto; }
 }

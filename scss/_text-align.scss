@@ -26,28 +26,28 @@
 
 */
 
-.tl  { text-align: left; }
-.tr  { text-align: right; }
-.tc  { text-align: center; }
-.tj  { text-align: justify; }
+.tl, %tl  { text-align: left; }
+.tr, %tr  { text-align: right; }
+.tc, %tc  { text-align: center; }
+.tj, %tj  { text-align: justify; }
 
 @media #{$breakpoint-not-small} {
-  .tl-ns  { text-align: left; }
-  .tr-ns  { text-align: right; }
-  .tc-ns  { text-align: center; }
-  .tj-ns  { text-align: justify; }
+  .tl-ns, %tl-ns  { text-align: left; }
+  .tr-ns, %tr-ns  { text-align: right; }
+  .tc-ns, %tc-ns  { text-align: center; }
+  .tj-ns, %tj-ns  { text-align: justify; }
 }
 
 @media #{$breakpoint-medium} {
-  .tl-m  { text-align: left; }
-  .tr-m  { text-align: right; }
-  .tc-m  { text-align: center; }
-  .tj-m  { text-align: justify; }
+  .tl-m, %tl-m  { text-align: left; }
+  .tr-m, %tr-m  { text-align: right; }
+  .tc-m, %tc-m  { text-align: center; }
+  .tj-m, %tj-m  { text-align: justify; }
 }
 
 @media #{$breakpoint-large} {
-  .tl-l  { text-align: left; }
-  .tr-l  { text-align: right; }
-  .tc-l  { text-align: center; }
-  .tj-l  { text-align: justify; }
+  .tl-l, %tl-l  { text-align: left; }
+  .tr-l, %tr-l  { text-align: right; }
+  .tc-l, %tc-l  { text-align: center; }
+  .tj-l, %tj-l  { text-align: justify; }
 }
