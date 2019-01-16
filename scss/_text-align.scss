@@ -31,6 +31,13 @@
 .tc, %tc  { text-align: center; }
 .tj, %tj  { text-align: justify; }
 
+@media #{$breakpoint-super-small} {
+  .tl-ss, %tl-ss  { text-align: left; }
+  .tr-ss, %tr-ss  { text-align: right; }
+  .tc-ss, %tc-ss  { text-align: center; }
+  .tj-ss, %tj-ss  { text-align: justify; }
+}
+
 @media #{$breakpoint-not-small} {
   .tl-ns, %tl-ns  { text-align: left; }
   .tr-ns, %tr-ns  { text-align: right; }

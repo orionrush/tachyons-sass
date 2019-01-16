@@ -52,6 +52,25 @@
   width: 100%;
 }
 
+@media #{$breakpoint-super-small} {
+  .dn-ss, %dn-ss { display: none; }
+  .di-ss, %di-ss { display: inline; }
+  .db-ss, %db-ss { display: block; }
+  .dib-ss, %dib-ss { display: inline-block; }
+  .dit-ss, %dit-ss { display: inline-table; }
+  .dt-ss, %dt-ss { display: table; }
+  .dtc-ss, %dtc-ss { display: table-cell; }
+  .dt-row-ss, %dt-row-ss { display: table-row; }
+  .dt-row-group-ss, %dt-row-group-ss { display: table-row-group; }
+  .dt-column-ss, %dt-column-ss { display: table-column; }
+  .dt-column-group-ss, %dt-column-group-ss { display: table-column-group; }
+
+  .dt--fixed-ss, %dt--fixed-ss {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
 @media #{$breakpoint-not-small} {
   .dn-ns, %dn-ns { display: none; }
   .di-ns, %di-ns { display: inline; }
